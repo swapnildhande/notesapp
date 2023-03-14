@@ -13,8 +13,7 @@ git clone https://github.com/swapnildhande/notesapp.git
 ```
 2. Create a virtual environment and activate it
 ```
-virtualenv venv
-venv/bin/activate
+docker build -t notes-app .
 ```
 3. Install the requirements
 ```
